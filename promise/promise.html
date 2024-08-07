@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Promises Example</title>
+    <link rel="stylesheet" href="promises.css">
+    <link href="https://fonts.googleapis.com/css2?family=Caveat:wght@400..700&family=Dancing+Script:wght@400..700&family=Kode+Mono:wght@400..700&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Langar&family=Sue+Ellen+Francisco&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <style>
+        body {
+    
+    background-color: beige;
+
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+h1 {
+    color: #ec1e40;
+    font-family: "Kode Mono", monospace;
+    text-align: center;
+    text-decoration: underline;
+}
+
+.container {
+    text-align: center;
+    padding: 20px;
+    border-radius: 20px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.4);
+    max-width: 600px;
+    margin: 20px auto;
+    background-color: white;
+}
+p {
+    color: black;
+    margin-bottom: 20px;
+    font-family: "Sue Ellen Francisco", cursive;
+    font-size: x-large;
+}
+button {
+    padding: 15px 32px;
+    font-size: 16px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    margin-bottom: 10px;
+    font-family: "Kode Mono", monospace;
+}
+button:hover {
+    background-color: #0056b3 ;
+}
+
+.output {
+    margin-top: 20px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    max-height: 300px; 
+    overflow-y: auto; 
+    font-family: "Kode Mono", monospace;    
+}
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Promises</h1>
+        <div id="output" class="output">Please wait until button is clicked</div> 
+        <button id="fetchButton">Fetch Data</button>
+    </div>
+    <script src="promises.js"></script>
+</body>
+</html>
